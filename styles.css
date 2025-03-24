@@ -22,37 +22,17 @@ body {
     display: block;
 }
 
-.hover-image-container {
-    position: relative;
-    display: inline-block;
-}
-
 .hover-image {
     position: absolute;
     top: 0;
     left: 0;
-    clip-path: url(#eye-clip);
-    /* Adiciona a borda usando outline */
-    outline: 2px solid black;
-    outline-offset: -2px; /* Faz a borda ficar para dentro */
-    pointer-events: none;
-}
-
-/* Novo estilo para a borda */
-.hover-image::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
-    height: 100%;
-    clip-path: inherit;
-    background: transparent;
-    border: 2px solid black; /* Espessura e cor da borda */
+    height: auto;
+    opacity: 0;
+    transition: opacity 0s ease;
     pointer-events: none;
-    z-index: 1;
+    clip-path: inset(0 0 0 0);
 }
-
 
 .hover-image::after {
     content: '';
@@ -68,6 +48,9 @@ body {
 
 .hover-area:hover .hover-image {
     opacity: 1;
+    outline: 15px solid black;
+    outline-offset: -3px;
+    
 }
 
 /* --- TEXTO RESPONSIVO (AJUSTADO) --- */
