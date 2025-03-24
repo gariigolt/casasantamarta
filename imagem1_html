@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Efeito de Hover</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="hover-area">
+        <img src="imagem1.jpg" alt="Imagem 1" class="main-image">
+        <img src="imagem2.jpg" alt="Imagem 2" class="hover-image">
+        <div class="hover-text">VOCÊ ME VÊ?<br>EU NÃO SOU INVISÍVEL.</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
