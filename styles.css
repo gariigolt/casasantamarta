@@ -51,12 +51,15 @@ body {
 
 .hover-text {
     position: absolute;
-    top: 20%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 100px;
-    color: #1e1e1e;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
     text-align: center;
-    line-height: 1;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    pointer-events: none;
+    line-height: 1.2;
     white-space: nowrap;
 }
