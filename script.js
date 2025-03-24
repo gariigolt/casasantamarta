@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const x = e.clientX - rect.left;
             const y = e.clientY - rect.top;
 
-            const eyePath = `path('M ${x - 100},${y} Q ${x - 60},${y - 60} ${x},${y - 60} Q ${x + 60},${y - 60} ${x + 100},${y} Q ${x + 60},${y + 60} ${x},${y + 60} Q ${x - 60},${y + 60} ${x - 100},${y} Z')`;
+            const eyePath = `path('M ${x - 150},${y} Q ${x - 90},${y - 90} ${x},${y - 90} Q ${x + 90},${y - 90} ${x + 150},${y} Q ${x + 90},${y + 90} ${x},${y + 90} Q ${x - 90},${y + 90} ${x - 150},${y} Z')`;
 
             hoverImage.style.clipPath = eyePath;
         });
