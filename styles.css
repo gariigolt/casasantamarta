@@ -58,8 +58,6 @@ body {
     font-family: 'Bebas Neue', sans-serif;
     color: #1e1e1e;
     text-align: center;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
-    pointer-events: none;
     line-height: 1;
     white-space: nowrap;
 }
