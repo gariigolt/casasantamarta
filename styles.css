@@ -48,6 +48,8 @@ body {
 
 .hover-area:hover .hover-image {
     opacity: 1;
+    stroke: black;
+    stroke-width: 1px;
 }
 
 /* --- TEXTO RESPONSIVO (AJUSTADO) --- */
