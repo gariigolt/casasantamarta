@@ -22,16 +22,20 @@ body {
     display: block;
 }
 
+.hover-image-container {
+    position: relative;
+    display: inline-block;
+}
+
 .hover-image {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    height: auto;
-    opacity: 0;
-    transition: opacity 0s ease;
+    clip-path: url(#eye-clip);
+    /* Adiciona a borda usando outline */
+    outline: 2px solid black;
+    outline-offset: -2px; /* Faz a borda ficar para dentro */
     pointer-events: none;
-    clip-path: inset(0 0 0 0);
 }
 
 /* Novo estilo para a borda */
