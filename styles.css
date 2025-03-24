@@ -43,12 +43,12 @@ body {
     height: 100%;
     clip-path: inherit;
     pointer-events: none;
+    outline: 15px solid black;
+    outline-offset: -3px;
 }
 
 .hover-area:hover .hover-image {
     opacity: 1;
-    outline: 15px solid black;
-    outline-offset: -3px;
     
 }
 
