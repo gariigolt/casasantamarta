@@ -34,6 +34,22 @@ body {
     clip-path: inset(0 0 0 0);
 }
 
+/* Novo estilo para a borda */
+.hover-image::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    clip-path: inherit;
+    background: transparent;
+    border: 2px solid black; /* Espessura e cor da borda */
+    pointer-events: none;
+    z-index: 1;
+}
+
+
 .hover-image::after {
     content: '';
     position: absolute;
@@ -48,8 +64,6 @@ body {
 
 .hover-area:hover .hover-image {
     opacity: 1;
-    stroke: black;
-    stroke-width: 10px;
 }
 
 /* --- TEXTO RESPONSIVO (AJUSTADO) --- */
