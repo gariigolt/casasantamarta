@@ -53,12 +53,12 @@ body {
 /* --- TEXTO RESPONSIVO (AJUSTADO) --- */
 .hover-text {
     position: absolute;
-    top: 50%; /* Centraliza verticalmente */
+    top: 20%; /* Centraliza verticalmente */
     left: 50%; /* Centraliza horizontalmente */
     transform: translate(-50%, -50%); /* Ajusta o centro exato */
     font-family: 'Bebas Neue', sans-serif;
     color: #1e1e1e;
-    text-align: center;
+    text-align: left;
     white-space: nowrap;
     line-height: 1;
     
