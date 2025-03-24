@@ -29,7 +29,7 @@ body {
     width: 100%;
     height: auto;
     opacity: 0;
-    transition: opacity 0.3s ease;
+    transition: opacity 0s ease;
     pointer-events: none;
     clip-path: inset(0 0 0 0);
 }
