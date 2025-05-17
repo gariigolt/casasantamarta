@@ -16,9 +16,9 @@ body {
 }
 
 .main-image {
-    width: 100%;
+    width: 100vh;
     height: auto;
-    display: block;
+    display: flex;
 }
 
 .hover-image {
